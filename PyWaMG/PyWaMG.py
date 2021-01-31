@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 import base64,os
 from time import sleep,ctime
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 def wait_for_load(term):
     WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.CLASS_NAME,term)))
@@ -18,8 +19,8 @@ options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 # options.add_experimental_option("excludeSwitches", ["enable-automation"])
 # options.add_experimental_option("useAutomationExtension", False)
-# options.headless = True          #Headless mode
-driver = Edge("msedgedriver.exe",options=options)
+options.headless = True          #Headless mode
+driver = Edge(EdgeChromiumDriverManager().install(),options=options)
 
 def wa_login():
     '''

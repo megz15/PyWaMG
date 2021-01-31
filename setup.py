@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
+from pypandoc import convert_file
 
-VERSION = '1.0.0' 
+VERSION = '1.1.0' 
 DESCRIPTION = 'PyWaMG - WhatsApp Automator Bot'
-LONG_DESCRIPTION = 'PyWaMG is a simple python library to automate sending messages and files on WhatsApp'
+with open('README.md', encoding='utf-8') as f:
+    LONG_DESCRIPTION = f.read()
 
 setup(
         name="PyWaMG", 
@@ -13,6 +15,7 @@ setup(
         license='MIT',
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
+        long_description_content_type='text/markdown',
         classifiers=[
             'Development Status :: 4 - Beta',
             'Programming Language :: Python :: 3.0',
@@ -25,6 +28,7 @@ setup(
         install_requires=[
             'msedge-selenium-tools',
             'selenium==3.141',
-            'pillow==8.0.1'
+            'pillow==8.0.1',
+            'webdriver-manager==3.3.0'
         ]
 )
