@@ -21,7 +21,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
    isLogout : bool, optional
      Log out of Whatsapp Web (default is False)
       
-3. send_txt(number,message,wait,times,appendMessageNumber = False,isInContacts = True,showLogs = True)
+3. send_txt(number, message, wait, times, appendMessageNumber = False, isInContacts = True, showLogs = True)
    ---------------------------------------------------------------------------------------------------
    Sends a text message to a WhatsApp number
 
@@ -46,7 +46,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
    7. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
         
-4. send_txt_to_group(group_id,message,wait,times,appendMessageNumber=False,showLogs=True)
+4. send_txt_to_group(group_id, message, wait, times, appendMessageNumber=False, showLogs=True)
    --------------------------------------------------------------------------------------
    Sends a text message to a WhatsApp group
 
@@ -68,7 +68,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
     6. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
 
-5. send_file(number,fpath,isInContacts=True,showLogs=True)
+5. send_file(number, fpath, isInContacts=True, showLogs=True)
    -------------------------------------------------------
    Sends a file/document to a WhatsApp number
 
@@ -84,7 +84,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
     4. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
         
-6. send_file_to_group(group_id,fpath,showLogs=True)
+6. send_file_to_group(group_id, fpath, showLogs=True)
    ------------------------------------------------
    Sends a file/document to a WhatsApp number
 
@@ -97,7 +97,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
     3. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
 
-7. send_media_file(number,fpath,caption,isInContacts=True,showLogs=True)
+7. send_media_file(number, fpath, caption, isInContacts=True, showLogs=True)
    ---------------------------------------------------------------------
    Sends a visual media file (image/video) with an optional caption message to a WhatsApp number
 
@@ -116,7 +116,7 @@ You just have to login to WhatsApp web once on your personal computer, then you 
     5. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
       
-8. send_media_file_to_group(group_id,fpath,caption,showLogs=True)
+8. send_media_file_to_group(group_id, fpath,caption, showLogs=True)
    --------------------------------------------------------------
    Sends a file/document to a WhatsApp number
 
