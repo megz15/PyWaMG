@@ -130,7 +130,14 @@ PyWaMG can be used to send documents, media or text messages through your person
     4. showLogs : bool, optional
         - Show logs, ie record of messages sent (default is True)
         
-        
+## NOTE:
+Phone number has to be in the format 'Country code'+'phone number', eg for country code +91 and mobile number 9876543210, the number parameter should be '919876543210'
+Group ID can be found out from the group invite link. For that:
+1. Open the Group chat in WhatsApp
+2. Click on the Group name at the top
+3. Click on 'Invite to group via link' (Ask your group admin to send the invite link if you can't see it)
+4. Get the Group ID (https://chat.whatsapp.com/this_is_the_group_id)
+
 \
 \
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
