@@ -1,7 +1,9 @@
 # PyWaMG - WhatsApp Automator Bot
 PyWaMG is a simple python library to automate sending messages and files on WhatsApp
-##About Project
-PyWaMG can be used to send documents, media or text messages through your personal WhatsApp number to groups and individual people, once or many times at defined intervals. You just have to login to WhatsApp web once on your personal computer, then you can upload the bot to remote servers so the messages keep getting sent without any user interaction.
+## About Project
+PyWaMG can be used to send documents, media or text messages through your personal WhatsApp number to groups and individual people, once or many times at defined intervals.
+<br>
+You just have to login to WhatsApp web once on your personal computer, then you can upload the bot to remote servers so the messages keep getting sent without any user interaction.
 ## REQUIREMENTS:
 [Python 3](https://www.python.org/downloads/)
 ## INSTALLATION:
@@ -132,6 +134,7 @@ PyWaMG can be used to send documents, media or text messages through your person
         
 ## NOTE:
 Phone number has to be in the format 'Country code'+'phone number', eg for country code +91 and mobile number 9876543210, the number parameter should be '919876543210'
+<br>
 Group ID can be found out from the group invite link. For that:
 1. Open the Group chat in WhatsApp
 2. Click on the Group name at the top
