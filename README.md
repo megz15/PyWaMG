@@ -8,22 +8,21 @@ PyWaMG can be used to send documents, media or text messages through your person
 ```pip install PyWaMG```
 ## FUNCTIONS:
 1. wa_login()
+   ----------
     Use to login to Whatsapp Web
   
 2. wa_close(isLogout=False)
+   ------------------------
     Closes Whatsapp Web
     If parameter isLogout is set to True it logs out of Whatsapp Web
 
-    Parameters
-    ----------
     isLogout : bool, optional
         Log out of Whatsapp Web (default is False)
       
 3. send_txt(number,message,wait,times,appendMessageNumber = False,isInContacts = True,showLogs = True)
+   ---------------------------------------------------------------------------------------------------
     Sends a text message to a WhatsApp number
-
-    Arguments
-    ---------
+    
     1. number : str
         - WhatsApp number where the message will be sent
 
