@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from pypandoc import convert_file
 
-VERSION = '1.1.0' 
+VERSION = '1.1.2' 
 DESCRIPTION = 'PyWaMG - WhatsApp Automator Bot'
 with open('README.md', encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
